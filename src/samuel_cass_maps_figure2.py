@@ -1,9 +1,4 @@
-#Program to read fit files of Jovian maps 
-#extract strips of the SST
 
-#Raul Morales-Juberias. Feb 2024
-
-## This program has added functionality to include a cursor that saves the position??
 iteration = 5
 
 import glob,os,gc
