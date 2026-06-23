@@ -13,9 +13,7 @@ from scipy.signal import find_peaks
 
 import sys
 import math
-#import cv2 ## not sure that this is needed? 
 
-#import openpyxl
 
 from scipy.ndimage import gaussian_filter1d
 
@@ -164,17 +162,8 @@ if False:
         ax = plt.gca()
 
 
-
-    #ax.format_coord = format_coord
-
-
 u , s2n = zonal_vortex_vel(band,DeltaP, FRAME_IDS)
 
-#print("Frame IDS: ", FRAME_IDS[0:10])
-
-#print("u array shape: ",np.shape(u))
-#print("u cols", u[0,:,:])
-#plt.show()
 
 
 
